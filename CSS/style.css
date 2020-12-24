@@ -1,0 +1,163 @@
+.header{
+    position:fixed;
+    display: flex;
+    background-color:#f18121;
+    width:100%;
+    justify-content:space-between;
+    align-items: center;
+    top:0;
+    font-size: 20px;
+}
+.icon img{
+    width: 85px;
+}
+.logo{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+body{
+    background-color: whitesmoke;
+    background:url ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.menu-main{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+textarea{
+    resize:none;
+}
+
+.searchbar{
+    display: flex;
+    padding-right: 60px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.searchbar #search{
+    margin-left: 200% !important;
+}
+
+.left-options{
+    display:flex;
+    justify-content: flex-start;
+}
+.right-options{
+    display:flex;
+    justify-content: flex-end;
+}
+.option{
+    display: flex;
+    justify-content: flex-end;
+}
+.option img{
+    padding-top: 20px;
+    padding-right: 60px;
+    width: 10%;
+
+}
+.footer{
+    width: 100%;
+    bottom: 0 ;
+    position: relative;
+    text-align: center;
+    background-color:#f18121 ;
+    color:black;
+    font-size: 7px;
+}
+.footer h1{
+    bottom:0;
+    text-align: center;
+}
+/* main body */
+.image img {
+    display: flex;
+    width:25%;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.cardtop h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+    background-color: #3e444c;
+    background-image: linear-gradient(to bottom, #51565d 0%, #3e444c 100%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.875);
+}
+.cardbody div.left img{
+    width: 50%;
+    display: flex;
+}
+.cardody div.left{
+    width: 25%;
+}
+.cardbody div.right {
+    text-align: center;
+    width: 75%;
+    color: black;
+}
+.cardbody {
+    display:flex;
+}
+.button a {
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border: 5px ;
+    border-radius: 12px;
+    background-color:green;
+    color: white;
+    transition: all 0.5s;
+    font-size: 25px;
+    text-decoration: none;
+}
+.button{
+    margin-top: 100px;
+}
+.cardbody .right #more{
+    display: none;
+}
+.right #myBtn {
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border: 5px ;
+    border-radius: 12px;
+    background-color:yellowgreen;
+    color: white;
+    transition: all 0.5s;
+    font-size: 15px;
+    text-decoration: none;
+}
+.button #fav{
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border: 5px ;
+    border-radius: 12px;
+    background-color:#ff2853;
+    color: white;
+    transition: all 0.5s;
+    font-size: 25px;
+    text-decoration: none;
+    opacity: 0.6;
+    cursor: not-allowed;
+}

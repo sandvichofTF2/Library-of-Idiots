@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art Of War</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+            <!-- Header -->
+            <div class="header">
+                <div class="left-options">
+                    <div class="icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="menu-main">
+                        <a href="index.html">
+                        <ul>Home</ul>
+                        </a>
+                        <ul>Category</ul>
+                        <ul>Community</ul>
+                        <ul>Info</ul>
+                    </div>
+                </div>
+                <div class="right-options">
+                    <div class="searchbar">
+                        <input type="search" id="search" placeholder="Search...">
+                                <button type="button" 
+                                onclick="alert('Work In Progress!')">Search</button>
+                    </div>
+                    <div class="option">
+                            <img src="img/settings_gear_options_option_icon-icons.com_59985.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Body -->
+    <div class="container"></div>
+        <div class="card">
+            <div class="cardtop">
+                <h1>The Art of War
+                </h1>
+            </div>
+            <div class="cardcover">
+                <div class="cardbody">
+                    <div class="left">
+                        <img src="img/The art of war.jpg" alt="">
+                    </div>
+                        <div class="right">
+                            <h2>Author: Sun Tzu</h2>
+                            <h2>Number of Chapter: 13 Chapters</h2>
+                            <h2>Average Reading Time: 38 minutes</h2>
+                            <h3>Description: An ancient Chinese book from the 5th century BC <br>
+                            Composed by Sun Tzu, About each of every aspect<span id="dots">...</span>
+                            <span id="more">
+                            of warfare and how it applies to military strategy and tactics. For almost 1,500 years it was the lead text in an anthology that was formalised as the Seven Military Classics by Emperor Shenzong of Song in 1080. The Art of War remains the most influential strategy text in East Asian warfare and has influenced both Eastern and Western military thinking, business tactics, legal strategy, lifestyles and beyond. <br>
+                            The book contained a detailed explanation and analysis of the Chinese military, from weapons and strategy to rank and discipline. Sun also stressed the importance of intelligence operatives and espionage to the war effort. Because Sun has long been considered to be one of history's finest military tacticians and analysts, his teachings and strategies formed the basis of advanced military training for millennia to come.
+                            </span> 
+                            </h3>
+                            <button onclick="myFunction()" id="myBtn">More</button>
+
+                            <div class="button">
+                                <a href="https://suntzusaid.com/">Read</a>
+                                <button id="fav" onclick="alert('Work In Progress!')">Favorite</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Footer -->
+        <div class="footer">
+            <h1>
+                Copyright © 2020 
+                Library of Idiots
+            </h1>
+        </div>
+</body>
+
+<script>
+
+
+function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "More"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+
+</html>
