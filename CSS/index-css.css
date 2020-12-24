@@ -164,3 +164,6 @@ textarea{
 .card img {
     width: 100%;
 }
+.manga-selector{
+    display: flex;
+}

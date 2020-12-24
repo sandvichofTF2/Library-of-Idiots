@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boku No Hero Academia</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+            <!-- Header -->
+            <div class="header">
+                <div class="left-options">
+                    <div class="icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="menu-main">
+                        <a href="index.html">
+                        <ul>Home</ul>
+                        </a>
+                        <ul>Category</ul>
+                        <ul>Community</ul>
+                        <ul>Info</ul>
+                    </div>
+                </div>
+                <div class="right-options">
+                    <div class="searchbar">
+                        <input type="search" id="search" placeholder="Search...">
+                                <button type="button" 
+                                onclick="alert('Work In Progress!')">Search</button>
+                    </div>
+                    <div class="option">
+                            <img src="img/settings_gear_options_option_icon-icons.com_59985.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Body -->
+    <div class="container"></div>
+        <div class="card">
+            <div class="cardtop">
+                <h1>Boku no Hero Academia
+                </h1>
+            </div>
+            <div class="cardcover">
+                <div class="cardbody">
+                    <div class="left">
+                        <img src="img/Boku no hero academia/12714v1.jpg" alt="">
+                    </div>
+                        <div class="right">
+                            <h2>Author: Horikoshi Kouhei</h2>
+                            <h2>Artist: Horikoshi Kouhei</h2>
+                            <h2>Number of Volume: 29 Volumes (Currently) </h2>
+                            <h2>Average Reading Time: 38 minutes</h2>
+                            <h3>Description: One day, a four-year-old boy came to a sudden realization: the world is not fair. Eighty percent of the world's population wield special abilities, known as "quirks," which have given many the power to make their childhood dreams of becoming a superhero a reality. Unfortunately, Izuku Midoriya was one of the few born without a quirk, suffering from discrimination because of it. Yet, he refuses to give up on his dream of becoming a hero; determined to do the impossible, Izuku sets his sights on the elite hero training academy, UA High.<span id="dots">...</span> <br>
+                            <span id="more">
+                                However, everything changes after a chance meeting with the number one hero and Izuku's idol, All Might. Discovering that his dream is not a dead end, the powerless boy undergoes special training, working harder than ever before. Eventually, this leads to him inheriting All Might's power, and with his newfound abilities, gets into his school of choice, beginning his grueling journey to become the successor of the best hero on the planet.
+                            </span> 
+                            </h3>
+                            <button onclick="myFunction()" id="myBtn">More</button>
+
+                            <div class="button">
+                                <a href="https://mangadex.org/title/12714/boku-no-hero-academia">Read</a>
+                                <button id="fav" onclick="alert('Work In Progress!')">Favorite</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Footer -->
+        <div class="footer">
+            <h1>
+                Copyright © 2020 
+                Library of Idiots
+            </h1>
+        </div>
+</body>
+
+<script>
+
+
+function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "More"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack on Titan</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+            <!-- Header -->
+            <div class="header">
+                <div class="left-options">
+                    <div class="icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="menu-main">
+                        <a href="index.html">
+                        <ul>Home</ul>
+                        </a>
+                        <ul>Category</ul>
+                        <ul>Community</ul>
+                        <ul>Info</ul>
+                    </div>
+                </div>
+                <div class="right-options">
+                    <div class="searchbar">
+                        <input type="search" id="search" placeholder="Search...">
+                                <button type="button" 
+                                onclick="alert('Work In Progress!')">Search</button>
+                    </div>
+                    <div class="option">
+                            <img src="img/settings_gear_options_option_icon-icons.com_59985.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Body -->
+    <div class="container"></div>
+        <div class="card">
+            <div class="cardtop">
+                <h1>Attack On Titan
+                </h1>
+            </div>
+            <div class="cardcover">
+                <div class="cardbody">
+                    <div class="left">
+                        <img src="img/AoT/429v1.jpg" alt="">
+                    </div>
+                        <div class="right">
+                            <h2>Author: Isayama Hajime</h2>
+                            <h2>Artist: Isayama Hajime</h2>
+                            <h2>Number of Volume: 33 Volumes (Currently)</h2>
+                            <h2></h2>
+                            <h3>Several hundred years ago, humans were nearly exterminated by Titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source.
+                                 A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of Titans.<span id="dots">...</span>
+                            <span id="more">
+                                Flash forward to the present and the southern district of Shinganshina has not seen a Titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as one of the outer district walls is damaged by a 60 meter (196.85 feet) Titan causing a breach in the wall. As the smaller Titans flood the city, the two kids watch in horror the tragic events that follow, as the Titans devour people uninpeded. 
+                                Eren vows that he will wipe out every single Titan and take revenge for all of mankind.
+                            </span> 
+                            </h3>
+                            <button onclick="myFunction()" id="myBtn">More</button>
+
+                            <div class="button">
+                                <a href="https://mangadex.org/title/429/shingeki-no-kyojin/covers/">Read</a>
+                                <button id="fav" onclick="alert('Work In Progress!')">Favorite</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Footer -->
+        <div class="footer">
+            <h1>
+                Copyright © 2020 
+                Library of Idiots
+            </h1>
+        </div>
+</body>
+
+<script>
+
+
+function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "More"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+
+</html>

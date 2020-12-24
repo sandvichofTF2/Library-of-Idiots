@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+            <!-- Header -->
+            <div class="header">
+                <div class="left-options">
+                    <div class="icon">
+                        <img src="" alt="">
+                    </div>
+                    <div class="menu-main">
+                        <a href="index.html">
+                        <ul>Home</ul>
+                        </a>
+                        <ul>Category</ul>
+                        <ul>Community</ul>
+                        <ul>Info</ul>
+                    </div>
+                </div>
+                <div class="right-options">
+                    <div class="searchbar">
+                        <input type="search" id="search" placeholder="Search...">
+                                <button type="button" 
+                                onclick="alert('Work In Progress!')">Search</button>
+                    </div>
+                    <div class="option">
+                            <img src="img/settings_gear_options_option_icon-icons.com_59985.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Body -->
+    <div class="container"></div>
+        <div class="card">
+            <div class="cardtop">
+                <h1>Harry Potter
+                </h1>
+            </div>
+            <div class="cardcover">
+                <div class="cardbody">
+                    <div class="left">
+                        <img src="img/Harry potter/Sorcerer stone.jfif" alt="" style="width: 100%;">
+                    </div>
+                        <div class="right">
+                            <h2>Author: J.K Rowling</h2>
+                            <h2>Number of Volume: 7 Volumes (Currently)</h2>
+                            <h2></h2>
+                            <h3>Description: Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.
+                                 The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people).
+                            </span> 
+                            </h3>
+                            <!-- <button onclick="myFunction()" id="myBtn">More</button> -->
+
+                            <div class="button">
+                                <a href="https://readonlinenovels.com/nv/6eb2dc222c508599/harry-potter-h">Read</a>
+                                <button id="fav" onclick="alert('Work In Progress!')">Favorite</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Footer -->
+        <div class="footer">
+            <h1>
+                Copyright © 2020 
+                Library of Idiots
+            </h1>
+        </div>
+</body>
+
+<script>
+
+
+function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "More"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Less"; 
+        moreText.style.display = "inline";
+      }
+    }
+</script>
+
+</html>
